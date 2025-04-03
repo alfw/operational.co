@@ -32,7 +32,7 @@ services:
       - mysql
 
   mysql:
-    image: mysql:8.4.0-oraclelinux8
+    image: mysql:lts-oraclelinux9
     command: >
       --default-authentication-plugin=mysql_native_password
     environment:
